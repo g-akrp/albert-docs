@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Albert',
   tagline: 'API testing with plain-JSON files that live in your repo',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icon-stable.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -86,7 +86,7 @@ const config = {
         title: 'Albert',
         logo: {
           alt: 'Albert Logo',
-          src: 'img/logo.svg',
+          src: 'img/icon-stable.png',
         },
         items: [
           {
