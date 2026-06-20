@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Plain JSON, Lives In Your Repo',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Requests, environments, flows, and sims are all plain-JSON files that diff cleanly in git —
+        no proprietary collection format, no separate server, no account.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Flows & Sims',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Chain requests into an end-to-end <strong>flow</strong>, then reuse those flows as load
+        profiles in a <strong>sim</strong> for stress testing, with live charts as it runs.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'k6-Powered',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Flows and sims execute via <a href="https://k6.io/">k6</a>, auto-downloaded on first run.
+        Run the same tests in CI with the bundled <code>albert</code> CLI.
       </>
     ),
   },
